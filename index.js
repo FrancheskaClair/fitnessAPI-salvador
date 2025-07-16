@@ -25,7 +25,7 @@ const corsOptions = {
 };
 
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 //[SECTION] Database Setup
 mongoose.connect("mongodb+srv://admin123:admin123@b546.9qk9nsf.mongodb.net/FitnessTrackerAPI?retryWrites=true&w=majority&appName=b546");
